@@ -134,3 +134,21 @@ config.ini
 
 # Quarto files
 /.quarto/
+
+data/raw/__MACOSX/ice_release_jul2025/._2025-ICLI-00019_2024-ICFO-39357_ERO Admin Arrests.xlsx
+data/raw/__MACOSX/ice_release_jul2025/._2025-ICLI-00019_2024-ICFO-39357_ERO Detainers.xlsx
+data/raw/__MACOSX/ice_release_jul2025/._2025-ICLI-00019_2024-ICFO-39357_ERO Encounters.xlsx
+.gitignore
+.gitignore
+data/raw/__MACOSX/ice_release_jul2025/._2025-ICLI-00019_2024-ICFO-39357_ICE Detentions.xlsx
+data/raw/__MACOSX/ice_release_jul2025/._2025-ICLI-00019_2024-ICFO-39357_ICE Removals_2025.xlsx
+.gitignore
+data/raw/ice_release_jul2025/2025-ICLI-00019_2024-ICFO-39357_ERO Admin Arrests.xlsx
+.gitignore
+data/raw/ice_release_jul2025/2025-ICLI-00019_2024-ICFO-39357_ERO Detainers.xlsx
+.gitignore
+data/raw/ice_release_jul2025/2025-ICLI-00019_2024-ICFO-39357_ERO Encounters.xlsx
+.gitignore
+data/raw/ice_release_jul2025/2025-ICLI-00019_2024-ICFO-39357_ICE Detentions.xlsx
+.gitignore
+data/raw/ice_release_jul2025/2025-ICLI-00019_2024-ICFO-39357_ICE Removals_2025.xlsx
