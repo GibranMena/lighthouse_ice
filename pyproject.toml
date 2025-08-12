@@ -15,6 +15,7 @@ numpy = "*"
 requests = "*"
 plotly = "*"
 openpyxl = "*"
+pyxlsb = "^1.0.10"
 
 [build-system]
 requires = ["poetry-core"]

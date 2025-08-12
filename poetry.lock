@@ -1045,6 +1045,18 @@ files = [
 ]
 
 [[package]]
+name = "pyxlsb"
+version = "1.0.10"
+description = "Excel 2007-2010 Binary Workbook (xlsb) parser"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "pyxlsb-1.0.10-py2.py3-none-any.whl", hash = "sha256:87c122a9a622e35ca5e741d2e541201d28af00fb46bec492cfa9586890b120b4"},
+    {file = "pyxlsb-1.0.10.tar.gz", hash = "sha256:8062d1ea8626d3f1980e8b1cfe91a4483747449242ecb61013bc2df85435f685"},
+]
+
+[[package]]
 name = "pyzmq"
 version = "27.0.1"
 description = "Python bindings for 0MQ"
@@ -1481,4 +1493,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "54e923682fd0f5d1cdb509582deb852a30181ba27cfbfb107e4cccf8367e6193"
+content-hash = "2a0ab61b7daba004faeb480d12a7dd37099bbb0d0ea9be0006aecbdbbe369b4b"
