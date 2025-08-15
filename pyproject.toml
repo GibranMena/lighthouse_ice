@@ -16,6 +16,7 @@ requests = "*"
 plotly = "*"
 openpyxl = "*"
 pyxlsb = "^1.0.10"
+fuzzywuzzy = "0.18.0"
 
 [build-system]
 requires = ["poetry-core"]
