@@ -13,24 +13,30 @@ format:
       - custom.scss
 
 website:
-  title: lighthouse_ice
   navbar:
     search: true
-    background: primary
+    title: lighthouse_ice
+    background: "primary"
     left:
-      - text: "Full Report"
-        href: _notebooks/full_report.ipynb
-  page-footer: 
-    border: false
-    background: dark
-    foreground: "#ffffff"
-    left: |
-      Full Report on ICE arrests data  
-      Created by Gibran Mena-Aguilar
-    center:
-      - icon: github
-        href: https://github.com/GibranMena
-      - icon: envelope
-        href: mailto:gibran@datacritica.org
-    right: |
-      [Powered by Quarto](https://quarto.org/)
+      - href: index.qmd
+        text: Home
+      - href: _notebooks/full_report.ipynb
+        text: "📊 Full Report"
+      - text: "Notebooks"
+        menu:
+          - href: _notebooks/0.0-collect-data.ipynb
+            text: "Data Collection"
+          - href: _notebooks/1.0-process-data.ipynb
+            text: "Data Processing"
+          - href: _notebooks/2.0-analyze-data.ipynb
+            text: "Data Analysis"
+          - href: _notebooks/3.0-visualize-data.ipynb
+            text: "Data Visualization"
+          - href: _notebooks/4.0-narrative-report.ipynb
+            text: "Narrative Report"
+          - href: _notebooks/full_report.ipynb
+            text: "Full Report"
+
+
+execute:
+  freeze: auto  # Prevents re-execution of notebooks on every render
