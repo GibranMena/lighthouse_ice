@@ -11,23 +11,26 @@ format:
     theme: 
       - zephyr
       - custom.scss
+
 website:
+  title: lighthouse_ice
   navbar:
     search: true
-    title: >
-      lighthouse_ice
-    background: "primary"
+    background: primary
+    left:
+      - text: "Full Report"
+        href: _notebooks/full_report.ipynb
   page-footer: 
     border: false
     background: dark
     foreground: "#ffffff"
-    left: >
+    left: |
+      Full Report on ICE arrests data  
       Created by Gibran Mena-Aguilar
     center:
       - icon: github
         href: https://github.com/GibranMena
       - icon: envelope
         href: mailto:gibran@datacritica.org
-    right: >
-        [Powered by Quarto](https://quarto.org/)
-
+    right: |
+      [Powered by Quarto](https://quarto.org/)
